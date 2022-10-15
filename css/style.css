@@ -612,7 +612,7 @@ form textarea {
 
     .portfolio-content {
         grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-        margin-bottom: 30px;
+
     }
 
     .contact-form form {
