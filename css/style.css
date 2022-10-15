@@ -473,8 +473,6 @@ form textarea {
 }
 
 /* Making Responsive */
-
-/* Making Responsive */
 @media (max-width: 991px) {
     header {
         padding: 18px 4%;
@@ -483,6 +481,14 @@ form textarea {
     section {
         padding: 50px 4%;
     }
+
+    .skills-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .services-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 @media (max-width: 881px) {
@@ -490,6 +496,15 @@ form textarea {
         --big-font: 2.7rem;
         --medium-font: 1.4rem;
     }
+
+    .skills-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .services-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -563,7 +578,7 @@ form textarea {
     }
 
     .skills-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr, minmax(200px, auto));
     }
 
     .skills-img img {
@@ -576,12 +591,23 @@ form textarea {
         justify-content: center;
     }
 
+    .services-container {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        padding-top: 0.5rem;
+        margin-left: 10%;
+    }
+
+    .portfolio-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .contact-form form {
-        width: 300px;
+        width: 700px;
     }
 
     .contact-button {
-        margin-left: 25%;
+        margin-left: 40%;
     }
 }
 
