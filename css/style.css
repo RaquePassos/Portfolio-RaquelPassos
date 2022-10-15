@@ -611,7 +611,7 @@ form textarea {
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 340px) {
     :root {
         --big-font: 1.7rem;
         --medium-font: 1.1rem;
